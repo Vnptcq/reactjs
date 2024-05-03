@@ -1,23 +1,12 @@
-import logo from './logo.svg';
+import SearchBar from './Components/Search_bar';
 import './App.css';
+import FormAdmin from './Components/Form';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {<SearchBar/>}
+      {<FormAdmin/>}
     </div>
   );
 }
